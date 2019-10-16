@@ -43,6 +43,8 @@ public class Lab4 {
 	public static int calcCube(int userEntry) {
 		return userEntry * calcSquare(userEntry);
 	}
+	
+	//create method to determine whether to start program over based on user entry
 
 	public static boolean getCont(String userEntry) {
 		if (userEntry.equalsIgnoreCase("y")) {
